@@ -8,9 +8,8 @@ const ContactSocial = () => {
   return (
     <div className='flex gap-4'>
         <Singlecontact link='https://github.com/bashaharshitha-cmd' Icon={FaGithub}/>
-         <Singlecontact link='https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=harshitha-gowda-9a6662222'
-          Icon={CiLinkedin}/>
-          <Singlecontact link='#' Icon={FaSquareInstagram}/>
+         <Singlecontact link="linkedin.com/in/harshitha-basha-9a6662222"/>
+          <Singlecontact link='https://www.instagram.com/life_is_wondderful?igsh=dWJiYnN6OHdmNGQ5&utm_source=ig_contact_invite' Icon={FaSquareInstagram}/>
     </div>
   );
 }; 
