@@ -1,8 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 @import "tailwindcss";
+
+/* 🎨 Custom Theme */
 @theme {
   --color-brown: #53423e;
   --color-lightBrown: #645550;
@@ -18,8 +16,30 @@
   --color-grey: #626965;
   --color-lightGrey: #978580;
   --color-darkGrey: #3f4441;
+
+  /* 🖋️ Fonts */
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  /* 📱 Breakpoints */
+  --breakpoint-sm: 150px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
 }
-body{
-  @apply bg-darkBrown ;
-    font-family: 'Josefin Sans', sans-serif;
-}
+
+/* 🌍 Global base styles — ensures fonts actually apply */
+@layer base {
+  html, body {
+    font-family: "Josefin Sans", sans-serif !important;
+     @apply bg-[#2c2523] text-[#f1e1d9];
+   
+  }
+
+  p {
+    font-family: "Roboto", sans-serif ;
+  }
+  
+
+}  

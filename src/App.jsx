@@ -8,9 +8,10 @@ import Projectmain from './assets/components/projectsection/Projectmain';
 import ContactMain from './assets/components/contactsection/ContactMain';
 import Footermain from './assets/components/Footer/Footermain';
 
+
 function App() {
   return (
-    <div className='font-bold'>
+    <main className='font-body  text-white relative overflow-hidden'>
       <Navbarname/>
       <Heromain/>
        <Aboutmemain/>
@@ -22,7 +23,7 @@ function App() {
        <Footermain/>
         
 
-    </div>
+    </main>
   ); 
 };
  
