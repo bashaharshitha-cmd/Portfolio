@@ -27,9 +27,17 @@ const Herotext = () => {
          whileInView="show"
          viewport={{once:false, amount:0}}
 
-        className=" text-lg mt-4 text-white font-family: 'Inter', sans-serif;">
+  className="text-lg mt-4 text-white font-josefin"
+   >
+
   I am a passionate front-end web developer learning the latest technologies.<br/>
-   I love building responsive websites and turning creative ideas into engaging web experiences.</motion.p>
+  I love building responsive websites and turning creative ideas into engaging web experiences.
+
+
+
+         </motion.p>
+
+        
 
     </div>
   );

@@ -32,13 +32,13 @@
 /* 🌍 Global base styles — ensures fonts actually apply */
 @layer base {
   html, body {
-    font-family: "Josefin Sans", sans-serif !important;
+    font-family: var(--font-josefin);
      @apply bg-[#2c2523] text-[#f1e1d9];
    
   }
 
   p {
-    font-family: "Roboto", sans-serif ;
+    font-family:var(--font-roboto) ;
   }
   
 
